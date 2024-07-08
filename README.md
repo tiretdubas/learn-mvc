@@ -1,3 +1,5 @@
+> **_NOTE:_** Ce projet m'a permis d'enseigner un petit paquet de concepts de programmation à une de mes promos d'étudiants.
+
 # Quelques ajouts qui font plaisir
 
 ## Les variables d'environnement
