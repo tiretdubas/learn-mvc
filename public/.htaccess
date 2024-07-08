@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Ignore les fichiers et répertoires réels existants
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirige toutes les requêtes vers index.php (QSA = conserve les paramètres d'URL, L = Termine le processus de réécriture)
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

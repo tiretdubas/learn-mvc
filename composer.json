@@ -1,0 +1,22 @@
+{
+    "require": {
+        "symfony/http-foundation": "^7.0",
+        "twig/twig": "^3.8",
+        "illuminate/database": "^10.42",
+        "vlucas/valitron": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.0",
+        "friendsofphp/php-cs-fixer": "^3.48"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "src/",
+            "App\\": "app/"
+        },
+        "files": [
+            "app/functions.php"
+        ]
+    }
+}
